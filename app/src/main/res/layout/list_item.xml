@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout android:padding="16dp" android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:id="@+id/image"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="6dip"
+            android:paddingBottom="2dip"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/marks"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="2dip"
+            android:textColor="@color/colorAccent" />
+        <TextView
+            android:id="@+id/p"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+</LinearLayout>

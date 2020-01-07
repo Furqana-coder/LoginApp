@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnselect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemSelected"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:text="Select contacts" />
+
+    <EditText
+        android:id="@+id/tvItemSelected"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/select"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:hint="select no"
+        />
+
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemSelected"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="6dp"
+        android:hint="enter msg" />
+
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-42dp"
+
+        android:text="send" />
+
+</RelativeLayout>

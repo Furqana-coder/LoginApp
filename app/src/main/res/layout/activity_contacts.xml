@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacts"
+    android:background="#FFF9C4"
+    android:padding="4dp">
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select"
+        android:layout_marginTop="159dp"
+        android:text="Click Here to load Contacts" />
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share" />
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select"
+        android:layout_marginTop="29dp"
+        android:text="View Contacts" />
+
+    <Button
+        android:id="@+id/loaddb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="26dp"
+        android:text="load in db"/>
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="99dp"
+        android:layout_height="65dp" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/load"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="133dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Here" />
+
+</RelativeLayout>

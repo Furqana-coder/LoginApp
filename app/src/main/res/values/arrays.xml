@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="teams">
+        <item>Avengers</item>
+        <item>Justice League</item>
+        <item>X-Men</item>
+        <item>Fantastic Four</item>
+    </array>
+
+    <!-- defining the array for our spinner -->
+</resources>

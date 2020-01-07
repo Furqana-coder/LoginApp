@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textColor="#111"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+            <EditText
+                android:id="@+id/editMobile"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+                android:drawableTint="#FF4081"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:singleLine="true" />
+
+
+
+
+
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="#d67601"
+                android:onClick="R"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/Reg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="#d67601"
+                android:onClick="R"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+
+

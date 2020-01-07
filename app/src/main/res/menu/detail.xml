@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu tools:context=".controller.DetailActivity" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Share" app:showAsAction="always" android:icon="@drawable/abc_ic_menu_share_mtrl_alpha" android:id="@+id/action_share"/>
+
+</menu>

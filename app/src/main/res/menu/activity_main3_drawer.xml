@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_sms"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/menu_sms"
+            tools:ignore="DuplicateIds" />
+
+        <item
+            android:id="@+id/nav_crud"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/menu_crud"
+            tools:ignore="DuplicateIds" />
+        <item
+            android:id="@+id/nav_csv"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="CSV and text file"
+            tools:ignore="DuplicateIds" />
+        <item
+            android:id="@+id/nav_excel"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Excel"
+            tools:ignore="DuplicateIds" />
+        <item
+            android:id="@+id/nav_retrofit"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Retrofit"
+            tools:ignore="DuplicateIds" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/menu_list"
+            tools:ignore="DuplicateIds" />
+
+        <item
+            android:id="@+id/nav_rec"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/menu_rec"
+            tools:ignore="DuplicateIds" />
+        <item
+            android:id="@+id/nav_json"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/menu_json"
+            tools:ignore="DuplicateIds" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="@string/menu_home" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/path"
+                android:icon="@drawable/ic_menu_"
+                android:title="Document path" />
+            <item
+                android:id="@+id/notification"
+                android:icon="@drawable/ic_menu_"
+                android:title=" Custom Notifiaction " />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_contact_mail_black_24dp"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
